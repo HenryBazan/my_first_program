@@ -15,7 +15,7 @@ fn executing_os_commands_linux(command_full: &str) {
     //println!("This is the out put \n {:?} output done \n", output);
     println!("Command output: {}", String::from_utf8_lossy(&output.stdout));
 }
-
+//Henry Bazan
 fn accept_linux_command_from_user()->String{
     let mut buffer = String::new();
     println!("Type command: ");
